@@ -1,0 +1,96 @@
+@import "colores";
+@import "tamaños";
+* {
+    margin: 0;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
+.navColor {
+    background-color: $navColor;
+    background-image: $gradNav;
+}
+body {
+    background-color: $fondo;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+}
+.colorFooter {
+    background-color: $colorFooter;
+}
+.tamaño2 {
+    width: $width1;
+    height: $height1;
+}
+.tamaño {
+    width: $widht2;
+    height: $height1;
+}
+.tamaño3 {
+    widht: $widht3;
+    height: $height2;
+}
+h3 {
+    font-weight: normal;
+    background-color: $h3Color;
+    background-image: $h3Grad;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.tamañoChico {
+    width: $width4;
+    height: $height3;
+}
+.blanco {
+    color: $blanco;
+}
+.mayuscula {
+    text-transform: uppercase;
+}
+iframe {
+    width: $width5;
+    height: $height4;
+}
+.animate__animated.animate__fadeInLeft {
+    animation-duration: 2s;
+}
+.animate__animated.animate__fadeIn {
+    animation-duration: 4s;
+}
+a:hover {
+    color: cadetblue;
+}
+header section a img:hover {
+    border: solid 1px rgb(208, 81, 224);
+    border-radius: 2px;
+}
+a {
+    text-decoration: none;
+}
+.animate__animated.animate__fadeInDown {
+    animation-duration: 2s;
+}
+.colorBoton:hover {
+    background-color: #a68cb8;
+    color: $blanco;
+}
+.fotos {
+    border: solid 10px $blanco;
+    border-radius: 5px;
+}
+.icon{
+    border-radius: 100%;
+    width: $width6;
+    height: $height5;
+    color: $blanco;
+}
+.icon-instagram {
+    background: $instaColor;
+
+}
+.icon-whatsapp {
+    background: $whatColor;
+}
+header nav div a {
+    align-items: center;
+}
